@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PONG</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        
+        
+        <link rel="stylesheet" href="../css/style.css">
+        
+    </head>
+    <body>
+        <div id="start_screen" style="display: none;">
+            <div id="text_block"></div>
+            <h2>adam's</h2>
+            <h1>PONG</h1>
+            <a href="#" onclick="startGame()">start game.</a>
+            <p>controls:
+                <br>p1 (left): w - up; s - down
+                <br>p2 (right): up arrow, down arrow
+                <br>
+                <br>
+                <br>click to start and keep the sound on!
+        </div>
+        <canvas id="game" style="display: none;"></canvas>
+        <div id="end_screen" style="display: none;">
+            <div id="text_block_2">
+                <h1 id="winner"></h1>
+                <h2 id="p1_record"></h2>
+                <h2 id="p2_record"></h2></h2>
+            </div>  
+            <a href="#" onclick="replay()">replay.</a> 
+        </div>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

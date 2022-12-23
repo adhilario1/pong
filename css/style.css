@@ -1,0 +1,49 @@
+body{ 
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    display:block;
+    width: 25%;
+}
+
+p{
+    display: block;
+}
+
+#start_screen{
+    background-color: black;
+    color:antiquewhite;
+    text-align: center;
+    margin:auto;
+    align-items: center;
+}
+
+#text_block{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#text_block_2{
+    display:inline-block;
+    vertical-align: middle;
+    margin: 100px;
+}
+
+#game{
+    display: none;
+}
+
+#end_screen{
+    display: none;
+    text-align: center;
+    
+}
+
+.ball{
+    /*border-radius:100%;*/
+    border: 2px solid #999;
+    position: absolute;
+}
